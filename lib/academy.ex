@@ -7,10 +7,11 @@ defmodule Academy do
     ExUnit.start(auto_run: false, capture_log: false)
 
     defmodule Test do
+      @module module
       use ExUnit.Case
 
       test "test" do
-        assert is_struct(module)
+        assert is_struct(@module)
       end
     end
 
