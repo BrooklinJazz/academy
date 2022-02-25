@@ -11,7 +11,7 @@ defmodule Academy do
       use ExUnit.Case
 
       test "test" do
-        assert is_struct(@module)
+        assert %@module{}
       end
     end
 
