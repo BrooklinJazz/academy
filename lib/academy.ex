@@ -10,7 +10,7 @@ defmodule Academy do
       use ExUnit.Case
 
       test "test" do
-        assert is_struct(Pokemon)
+        assert is_struct(module)
       end
     end
 
