@@ -11,7 +11,6 @@ defmodule Academy do
 
       test "test" do
         assert is_struct(Pokemon)
-        assert %{health: 20, attack: 5} = %module{}
       end
     end
 
